@@ -15,7 +15,7 @@ License for the specific language governing permissions and limitations under th
   <div>
     <div class="username">
       {{ username }}
-      <v-btn v-on:click.native="logout();" round primary dark small>logout</v-btn>
+      <v-btn v-on:click.native="logout();" primary dark small>logout</v-btn>
     </div>
   </div>
 </template>
