@@ -181,6 +181,7 @@ Resources:
             CognitoIdentityProviders:
                 - ClientId: !Ref CognitoUserPoolClient
                   ProviderName: !GetAtt CognitoUserPool.ProviderName
+                - ClientId: !Ref
 
     CognitoIdentityPoolSetRoles:
         Type: AWS::Cognito::IdentityPoolRoleAttachment
